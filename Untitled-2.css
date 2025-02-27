@@ -1,0 +1,50 @@
+p {
+    color: azure;
+    transition: 1000ms;
+    font-size: 30px;
+}
+
+p:hover {
+    color: azure;
+    text-shadow: 0px 0px 8px white;
+}
+
+a {
+    background-color: rgb(0, 0, 85);
+    color: azure;
+    font-size: 30px;
+    transition: 1000ms;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 85);
+    color: rgb(0, 255, 21);
+    font-size: 35px;
+    text-shadow: 0px 0px 8px rgb(0, 255, 17);
+}
+
+body {
+    background-color: rgb(0, 0, 46);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 30px;
+    bottom: 10px;
+    transition: all 1000ms;
+}
+
+img:hover {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 300px;
+    bottom: 10px;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
